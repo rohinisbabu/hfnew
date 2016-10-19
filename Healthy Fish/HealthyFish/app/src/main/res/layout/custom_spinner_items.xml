@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/spinner_border">
+
+
+    <TextView
+        android:id="@+id/text_price_cat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5px"
+        android:layout_marginTop="2px"
+        android:padding="3px"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:id="@+id/text_price_cat_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/text_price_cat_name"
+        android:padding="2px"
+        android:visibility="gone"
+
+
+        />
+
+</RelativeLayout>
